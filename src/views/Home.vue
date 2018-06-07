@@ -165,14 +165,24 @@ img {
 
 table {
   color: white;
+  font-weight: bold;
   background-color: #010673;
   border-radius: 15px;
   width: 150%;
 }
 
+.table tr:hover{
+  background-color: #9ddef6;
+}
+
+.table th {
+  border-top: none;
+}
+
 p {
   color: white;
 }
+
 .userBody {
   margin-top: 60px;
   display: flex;
